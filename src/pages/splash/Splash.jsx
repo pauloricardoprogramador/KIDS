@@ -1,7 +1,11 @@
+import { Shell } from "lucide-react";
+
+import styles from "./styles.module.css";
+
 function Splash() {
   return (
-    <div>
-      <p>Splash</p>
+    <div className={styles.container}>
+      <Shell />
     </div>
   );
 }
