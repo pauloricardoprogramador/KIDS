@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import styles from "./styles.module.css";
-function Icones({ icon: Icon, titulo, subtitulo }) {
+
+function Beneficio({ icon: Icon, titulo, subtitulo }) {
   return (
     <div className={styles.container}>
       <div className={styles.icone}>{Icon && <Icon />}</div>
@@ -12,10 +13,10 @@ function Icones({ icon: Icon, titulo, subtitulo }) {
   );
 }
 
-Icones.propTypes = {
+Beneficio.propTypes = {
   icon: PropTypes.func.isRequired,
   titulo: PropTypes.string.isRequired,
   subtitulo: PropTypes.string.isRequired,
 };
 
-export default Icones;
+export default Beneficio;
