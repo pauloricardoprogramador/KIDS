@@ -1,6 +1,6 @@
 import { Shell } from "lucide-react";
 
-import styles from "./styles.module.css";
+import styles from "./Splash.module.css";
 
 function Splash() {
   return (

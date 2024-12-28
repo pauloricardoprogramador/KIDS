@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "./styles.module.css";
+import styles from "./Beneficio.module.css";
 
 function Beneficio({ icon: Icon, titulo, subtitulo }) {
   return (
