@@ -1,0 +1,35 @@
+:root {
+  --background-hulk: #1d2b38;
+  --backgroun-especial: #1a2631;
+
+  --titulo: #d7d7d7;
+  --subtitulo: #8e8d8d;
+
+  --butao: #294862;
+  --butao-hover: #3f6b8f;
+
+  --focus-input: #2c4961;
+}
+
+.container {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.logotipo {
+  color: var(--titulo);
+}
+
+.titulo {
+  color: var(--titulo);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.subtitulo {
+  color: var(--subtitulo);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 8px;
+}

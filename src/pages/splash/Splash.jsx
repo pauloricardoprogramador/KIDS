@@ -5,7 +5,7 @@ import styles from "./Splash.module.css";
 function Splash() {
   return (
     <div className={styles.container}>
-      <Shell />
+      <Shell strokeWidth={0.5} size={90} className={styles.logotipo} />
     </div>
   );
 }

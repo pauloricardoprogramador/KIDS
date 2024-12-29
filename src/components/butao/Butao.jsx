@@ -1,9 +1,16 @@
-function Butao() {
+import PropTypes from "prop-types";
+import styles from "./Butao.module.css";
+
+function Butao({ titulo }) {
   return (
-    <div>
-      <button>começar</button>
+    <div className={styles.container}>
+      <button className={styles.butao}>{titulo}</button>
     </div>
   );
 }
+
+Butao.propTypes = {
+  titulo: PropTypes.string.isRequired,
+};
 
 export default Butao;

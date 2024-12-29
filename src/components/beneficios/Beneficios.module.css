@@ -12,28 +12,18 @@
 }
 
 .container {
-  display: flex;
+  overflow: hidden;
+}
+
+.kids {
   margin-top: 16px;
+  margin-bottom: 25px;
   padding: 0rem 1rem;
-}
-
-.icone {
   color: var(--subtitulo);
-  font-size: 20px;
-}
-
-.textos {
-  margin-left: 12px;
-}
-
-.titulo {
-  color: var(--titulo);
-  font-weight: 500;
-  font-size: 12px;
-}
-
-.subtitulo {
-  color: var(--subtitulo);
-  font-size: 12px;
   font-weight: 400;
+  font-size: 12px;
+}
+
+.beneficios {
+  margin-bottom: 281px;
 }
