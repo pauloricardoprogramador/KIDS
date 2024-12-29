@@ -9,12 +9,25 @@ import {
 import Beneficio from "../beneficio/Beneficio";
 import Butao from "../butao/Butao";
 import Header from "../header/Header";
+import Splash from "../../pages/splash/Splash";
 
 import styles from "./Beneficios.module.css";
+import { useEffect, useState } from "react";
 
 function Beneficios() {
+  const [showSplash, setShowSplash] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowSplash(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className={styles.container}>
+      {showSplash && <Splash />}
       <Header
         titulo="Bem-vindo ao  Kids!"
         subtitulo="Acompanhe a presença de seus filhos e fique sempre informado sobre as atividades da igreja."
