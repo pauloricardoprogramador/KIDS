@@ -1,6 +1,8 @@
+<img src='.github/kids.png'>
+
 # Kids - Aplicativo de Gerenciamento de Presença e Atividades
 
-Bem-vindo ao **Kids**, uma aplicação desenvolvida para facilitar o acompanhamento da presença e atividades de crianças em igrejas, oferecendo uma experiência segura, prática e intuitiva para os responsáveis.
+Bem-vindo ao **Kids**, uma aplicação desenvolvida para facilitar o acompanhamento da presença e atividades de crianças em igrejas, oferecendo uma experiência segura, prática e intuitiva para os responsáveis. O layout da aplicação foi estruturado 100% para mobile, caso sinta algum desconforto com o layout para desktop, peço desculpas.
 
 ## Visão Geral
 A aplicação é composta por uma interface responsiva e amigável que inclui:
